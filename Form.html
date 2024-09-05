@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form File</title>
+</head>
+<body style="background-color:yellow;">
+    <div>
+        <form>
+            
+            <h1>student details form</h1>
+            <label>Name :</label>
+            <input type="text"
+            placeholder="enter ur name" required/>
+            <br/><br/>
+            <label>Date Of Birth : </label>
+            <input type="date"/><br/><br/>
+            <label>Age: </label>
+            <input type="number"
+            placeholder="enter ur dob" required/><br/><br/>
+            <label>College Name : </label>
+            <input type="text"
+            placeholder="enter ur college name" required/><br/><br/>
+            <label>Phone Number:</label>
+            <input type="number"
+            placeholder="enter ur age" required/>
+            <fieldset style="width:30%";>
+                <legend>Gender : </legend>
+                <input type="radio" id="male"
+                name="gender" value="male"/>
+                <label>Male</label><br/>
+                <input type="radio" id="female"
+                name="gender" value="female"/>
+                <label>Female</label><br/>
+                <input type="radio" id="other"
+                name="gender" value="other"/>
+                <label>other</label><br/>
+            </fieldset >
+            <fieldset STYLE="width:30%"; >
+                <legend>Skills: </legend>
+                <input type="checkbox" id="HTML"
+                name="SKills" value="HTML"/>
+                <label>HTML</label><br/>
+                <input type="checkbox" id="CSS"
+                name="SKills" value="CSS"/>
+                <label>CSS</label><br/>
+                <input type="checkbox" id="JAVA"
+                name="SKills" value="JAVA"/>
+                <label>JAVA</label><br><br/>
+            </fieldset><br><br/>
+            <label>Select role:</label>
+            <select>
+            <option value="student">student</option>
+            <option value="employee">employee</option><br><br/>
+            </select><br><br/>
+            <label>Resume : </label>
+            <input type="file"
+            accept=".pdf,.doc,.docx"
+            id="Resume" name="Resume"/><br><br/>
+            <label>Gmail : </label>
+            <input type="text"
+            placeholder="enter ur email"/><br><br/>
+            <label>Password : </label>
+            <input type="password" id="password"
+            placeholder="enter ur password"/><br><br/>
+            <button>Submit</button>
+
+        </form>
+    </div>
+</body>
+</html>
