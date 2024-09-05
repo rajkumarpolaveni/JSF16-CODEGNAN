@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box </title>
+    <style>
+        body{
+            /* display: flex;
+            flex-direction: column; */
+            background-color: pink;
+        }
+        .container{
+            background-color: aqua;
+            margin: 10px;
+            padding:10px;
+            display: flex;
+        }
+        .box{
+            height:100px;
+            width:100px;
+            border:4px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            text-align: center;
+            margin: 10px;
+            font-size: 5rem;
+            color: white;
+        }
+        .box-one{
+            background-color: blue;
+            order:3;
+        }
+        .box-two{
+            background-color: orange;
+            orphans: 2;
+        }
+        .box-three{
+            background-color:greenyellow;
+            order:1;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div style="background-color: aqua;">division</div>
+    <span style="background-color: blue;">span</span> -->
+    <div class="container" style="background-color: rgba(11, 237, 241, 0.971);">
+        <div class="box box-one">1</div>
+        <div class="box box-two">2</div>
+        <div class="box box-three">3</div>
+    </div>
+    
+</body>
+</html>
